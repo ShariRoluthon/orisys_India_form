@@ -1,0 +1,85 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	margin: 0;
+}
+.Form_Size{
+	background: beige;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+header{
+	width: 100%;
+}
+.Form_style{
+	margin: 2%;
+	width: 96%;
+}
+.FormStyles{
+	width: 94%;
+	height: 3.5em;
+	margin: 2%;
+}
+.FormStyles input[type="text"]{
+	width: 100%;
+    border-radius: 5px;
+    height: 2em;
+}
+.FormStyleDate{
+	width: 80%;
+	height: 3.5em;
+	margin: 2%;
+}
+.FormStyleSign{
+	width: 20%;
+	height: 3.5em;
+	margin: 2%;
+}
+.FormStyleDate input[type="Date"]{
+	border-radius: 5px;
+	height: 2em;
+}
+.FormStyleSign input[type="text"]{
+	width: 65%;
+    border-radius: 5px;
+    height: 2em;
+}
+textarea{
+	height: 3em;
+	width: 100%;
+	border-radius: 5px;
+}
+footer{
+	text-align: right;
+}
+.AddressStyle{
+	margin: 2%;
+}
+.AddressStyle h3{
+	color: #E74C3C ;
+	text-decoration: underline;
+}
+.AddressStyle p{
+
+}
+@media screen and (max-width:650px){
+	img{
+		width: 274px;
+		height: 85px;
+	}
+	.FormStyleDate,.FormStyleSign{
+		width: 50%;
+	}
+	.FormStyles{
+		height: 5em;
+	}
+	.Form_Size{
+		width: 76%;
+		margin-left: 12%;
+	}
+}
