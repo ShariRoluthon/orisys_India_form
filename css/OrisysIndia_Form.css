@@ -82,4 +82,10 @@ footer{
 		width: 76%;
 		margin-left: 12%;
 	}
+	.FormStyleDate input[type="Date"]{
+		width: 93%;
+	}
+	.FormStyleSign input[type="text"]{
+		width: 93%;
+	}
 }
